@@ -62,7 +62,7 @@ CLASS basicEnemy
 - METHODS
   - collisionCheck
   - display
-
+  - healthUpdate
 CLASS healthyEnemy
 - Instance variables:
   - Health
@@ -71,7 +71,8 @@ CLASS healthyEnemy
 - METHODS
   - collisionCheck
   - display
-  - 
+  - healthUpdate
+    
  CLASS smallEnemy
 - Instance variables:
   - Health
@@ -80,16 +81,19 @@ CLASS healthyEnemy
 - METHODS
   - collisionCheck
   - display
- 
+  - healthUpdate
+    
 CLASS specialEnemy
 - Instance variables:
   - Health
   - Speed
   - PVector coordinates
+    
 - METHODS
   - collisionCheck
   - display
- 
+  - healthUpdate
+  - 
 CLASS projectile
 - Instance variables:
   - PVectors
