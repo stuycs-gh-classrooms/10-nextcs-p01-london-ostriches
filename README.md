@@ -65,5 +65,9 @@ CLASS healthyEnemy
   - LIST INSTANCE VARS HERE
 - METHODS
   - LIST METHODS HERE
- 
-CLASS 
+
+ CLASS smallEnemy
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
