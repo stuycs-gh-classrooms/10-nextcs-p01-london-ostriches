@@ -45,12 +45,11 @@ How will your program be controlled? List all keyboard commands and mouse intera
 Keyboard Commands:
 q: resets the level
 r: resets the game to level 1
-space: shoots a bullet
-escape: pauses the game
+space: pauses the game
 
 Mouse Control:
-- Mouse movement: 
-- Mouse pressed: 
+- Mouse movement: changes the angle of the gun
+- Mouse pressed: shoots a bullet
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
