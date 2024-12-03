@@ -83,7 +83,7 @@ CLASS healthyEnemy
   - display
   - healthUpdate
     
-<br>CLASS specialEnemy
+CLASS specialEnemy
 - Instance variables:
   - Health
   - Speed
