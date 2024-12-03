@@ -93,7 +93,7 @@ CLASS specialEnemy
   - collisionCheck
   - display
   - healthUpdate
-  - 
+    
 CLASS projectile
 - Instance variables:
   - PVectors
