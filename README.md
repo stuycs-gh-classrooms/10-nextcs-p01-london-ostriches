@@ -44,7 +44,7 @@ How will your program be controlled? List all keyboard commands and mouse intera
 
 Keyboard Commands:
 q: resets the level
-r: resets the game to level 1
+<br> r: resets the game to level 1
 space: pauses the game
 
 Mouse Control:
