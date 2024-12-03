@@ -33,10 +33,10 @@ What are some features that are not essential to the program, but you would like
 How will you be using arrays in this project?
 
 1D Array:
-
+Position of each alien type
 
 2D Array:
-An array of arrays that contain the coordinates of each alien
+An array that contains the position of each alien type that moves in a group except the special alien which only moves along the top row
 
 
 ### Controls
@@ -67,6 +67,18 @@ CLASS healthyEnemy
   - LIST METHODS HERE
 
  CLASS smallEnemy
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+ 
+CLASS specialEnemy
+- Instance variables:
+  - LIST INSTANCE VARS HERE
+- METHODS
+  - LIST METHODS HERE
+ 
+CLASS projectile
 - Instance variables:
   - LIST INSTANCE VARS HERE
 - METHODS
