@@ -27,7 +27,8 @@ What are the core features that your program should have? These should be things
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+<br> Score
+<br> Shields
 
 ### Array Usage
 How will you be using arrays in this project?
