@@ -43,9 +43,9 @@ An array of arrays that contain the coordinates of each alien
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-q: resets the level
+<br> q: resets the level
 <br> r: resets the game to level 1
-space: pauses the game
+<br> space: pauses the game
 
 Mouse Control:
 - Mouse movement: changes the angle of the gun
