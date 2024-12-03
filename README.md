@@ -56,30 +56,43 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS basicEnemy
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Health
+  - Speed
+  - PVector coordinates
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck
+  - display
 
 CLASS healthyEnemy
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Health
+  - Speed
+  - PVector coordinates
 - METHODS
-  - LIST METHODS HERE
-
+  - collisionCheck
+  - display
+  - 
  CLASS smallEnemy
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Health
+  - Speed
+  - PVector coordinates
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck
+  - display
  
 CLASS specialEnemy
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Health
+  - Speed
+  - PVector coordinates
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck
+  - display
  
 CLASS projectile
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - PVectors
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck
+  - display
