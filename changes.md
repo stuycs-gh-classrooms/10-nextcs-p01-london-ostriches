@@ -60,39 +60,48 @@ CLASS healthyEnemy
   - Health
   - Speed
   - PVector coordinates
+  - projectileChance
+    
 - METHODS
   - collisionCheck
   - display
   - healthUpdate
   - move
+  - shoot
     
  CLASS smallEnemy
 - Instance variables:
   - Health
   - Speed
   - PVector coordinates
+  - projectileChance
+    
 - METHODS
   - collisionCheck
   - display
   - healthUpdate
   - move
+  - shoot
     
 CLASS specialEnemy
 - Instance variables:
   - Health
   - Speed
   - PVector coordinates
+  - projectileChance
     
 - METHODS
   - collisionCheck
   - display
   - healthUpdate
   - move
+  - shoot
     
 CLASS projectile
 - Instance variables:
   - PVectors
   - speed
+    
 - METHODS
   - collisionCheck
   - display
@@ -102,7 +111,24 @@ CLASS shields
 - Instance variables:
   - PVectors
   - Alive(boolean)
+    
 - METHODS:
   - collisionCheck
   - display
-  
+
+Driver
+- Global variables:
+  - score
+  - lives
+  - level
+  - enemyCount
+  - playing(boolean)
+    
+- Methods:
+  - draw
+  - setup
+  - updateLevel
+  - updateScore
+  - keyPressed
+  - mousePressed
+  - updateLives
