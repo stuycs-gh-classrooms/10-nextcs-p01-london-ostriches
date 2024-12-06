@@ -107,3 +107,26 @@ CLASS projectile
 - METHODS
   - collisionCheck
   - display
+ 
+  void setup() {
+  int x = 100;
+  int y = 100;
+  int s = 10;
+  size(200, 200);
+  background(0);
+  fill(0, 0, 255);
+  rect(x - 3 * s, y - 4 * s, s, s);
+  rect(x + 3 * s, y - 4 * s, s, s);
+  rect(x - 2 * s, y - 3 * s, s, s);
+  rect(x + 2 * s, y - 3 * s, s, s);
+  rect(x - 3 * s, y - 2 * s, 7 * s, s);
+  rect(x - 4 * s, y - s, 2 * s, s);
+  rect(x - s, y - s, 3 * s, s);
+  rect(x + 3 * s, y - s, 2 * s, s);
+  rect(x - 5 * s, y, 11 * s, s);
+  rect(x - 5 * s, y + s, s, 2 * s);
+  rect(x - 3 * s, y + s, s, 2 * s);
+  rect(x + 3 * s, y + s, s, 2 * s);
+  rect(x + 5 * s, y + s, s, 2 * s);
+  rect(x - 2 * s, y + s, 5 * s, 2 * s);
+}
