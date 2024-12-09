@@ -5,7 +5,6 @@ class specialEnemy {
   int projChance;
   boolean destroyed;
   PVector size;
-  Projectile shot;
   Projectile[] projectiles;
 
   specialEnemy(PVector c, int h, int spd, int chance, PVector s) {
